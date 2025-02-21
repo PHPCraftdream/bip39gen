@@ -1,0 +1,8 @@
+Electrum
+Ethereum-MyCrypto
+Solana-Exodus
+Sui-Atomic
+Avax-Exodus
+Doge-Exodus
+Pepe-Exodus
+ShibaInu-Exodus
