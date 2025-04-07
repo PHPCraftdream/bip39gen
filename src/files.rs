@@ -42,8 +42,8 @@ pub fn check_files(args: &Vec<String>) -> Result<Vec<String>, Box<dyn Error>> {
 
         println!();
 
-        println!("source: https://github.com/PHPCraftdream/bip39gen");
-        println!("release: https://github.com/PHPCraftdream/bip39gen/releases/tag/0.0.1");
+        // println!("source: https://github.com/PHPCraftdream/bip39gen");
+        // println!("release: https://github.com/PHPCraftdream/bip39gen/releases/tag/0.0.1");
         println!("learn: https://t.me/Crypto_znanie_bot");
 
         println!();
@@ -73,8 +73,6 @@ pub fn check_files(args: &Vec<String>) -> Result<Vec<String>, Box<dyn Error>> {
             "Sui-Atomic".to_string(),
             "Avax-Exodus".to_string(),
             "Doge-Exodus".to_string(),
-            "Pepe-Exodus".to_string(),
-            "ShibaInu-Exodus".to_string(),
         ];
 
         wf("./", "wallets.txt", &wallets.join("\n"))?;
